@@ -24,7 +24,11 @@ HEADERS += \
 
 FORMS += \
     principal.ui
-
+TRANSLATIONS += \
+ Graficos2_ru.ts \
+ Graficos2_zh_CN\
+ Graficos2_sq_AL\
+ Graficos2_ca_AD
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
